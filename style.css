@@ -6,8 +6,8 @@
 body {
     background-image: url('ANIMES.jpg');
     background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: #DDDDDD; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
@@ -106,9 +106,9 @@ footer {
     background-color: #F5F7F8; /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: 0; /* Espaçamento interno */
+    padding: 10; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
+    position: cover; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
